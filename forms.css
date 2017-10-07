@@ -1,0 +1,146 @@
+.top {
+	background-color: #3a3a3a;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: +1;
+	opacity: 1;
+}
+
+.quotes {
+	color:#0a9113;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+
+.footer {
+	width: 100%;
+	height: 30px;
+	border:0px solid green;
+	position: fixed;
+	bottom: 0;
+	left:0;
+	color: #939393;
+	font-variant: small-caps;
+	font-family: "Palatino Linotype";
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+}
+
+
+.lfcontain {
+	position: fixed;
+	display: none;
+	z-index: +2;
+	width: 100%;
+	height: 100%;
+	left:0%;
+	top:0%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.2);
+}
+
+input[type=text],input[type=password] {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.lfcontainer button {
+	background-color: #48d1cc;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	widows: 100%;
+}
+
+.imgcontain {
+	text-align: center;
+	margin: 24px 0 12px 0;
+	position: relative;
+}
+
+img.avatar {
+	width: 10%;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+}
+
+.lfcontainer {
+	padding: 16px;
+}
+
+.loginform {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto;
+	border: 1px solid #888;
+	width: 70%;
+}
+
+.close {
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #000;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover, .close:focus {
+	color: red;
+	cursor: pointer;
+}
+
+.lfanimate {
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+	from {transform: scale(0)}
+	to {transform: scale(1)}			
+}
+
+.cancel{
+	position: relative;
+	left: 25px;
+	top: 5px;
+	color: #8c2b01;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.cancel:hover, .cancel:focus {
+	color: red;
+	cursor: pointer;
+}
+
+
+.textarea {
+	width:100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: block;
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 230px;
+	min-height: 80px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}

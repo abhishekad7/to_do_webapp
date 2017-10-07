@@ -1,0 +1,166 @@
+.menuitem{
+	border: 0px solid green;
+	background: rgba(0,0,0,0);
+	text-align: center;
+}
+
+
+.menuitem p{
+	cursor: pointer;
+	position: relative;
+	width:100%;
+	padding: 12px 8px 12px 40px;
+	background: #64afbc;
+	font-size: 20px;
+	vertical-align: top;
+	transition: 0.2s;
+	border: 0px solid red;
+	border-radius: 0%;
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-variant: small-caps;
+	font-family: "Palatino Linotype";
+	font-weight: bold;
+	letter-spacing: 3px;
+
+}
+
+
+.menuitem p.checked {
+	background: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
+
+p.accordion {
+	background-color: #eee;
+	color:#444;
+	transition: 0.2s;
+}
+
+
+div.panel {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: 0.2s ease-in-out;
+	opacity:0;
+	border: 0px solid red;
+	border-radius: 0%;
+	background-color: rgba(1,1,1,0);
+}
+
+div.panel.show {
+	opacity:1;
+	max-height: 50000px;
+}
+
+p.accordion.active, p.accordion:hover {
+	background-color: #ddd;
+}
+
+.completed {
+	width: 100%;
+	height: auto;
+	border: 0px solid green;
+	background-color: rgba(106, 219, 81,0.61);
+	color:#0a9113;
+	text-align: left;
+	padding-left: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Constantia";
+	font-weight: bold;
+}
+
+.completed:hover {
+	cursor: pointer;
+}
+
+.upcoming {
+	width: 100%;
+	height: auto;
+	border: 0px solid green;
+	background-color: rgba(100, 205, 219,0.61);
+	color:#01798e;
+	text-align: left;
+	padding-left: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Constantia";
+	font-weight: bold;
+}
+
+.upcoming:hover{
+	cursor: pointer;
+}
+
+.missed {
+	width: 100%;
+	height: auto;
+	border: 0px solid green;
+	background-color: rgba(232, 83, 118,0.71);
+	color:#9b0007;
+	text-align: left;
+	padding-left: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Constantia";
+	font-weight: bold;
+}
+
+.missed:hover {
+	cursor: pointer;
+}
+
+.proname {
+	font-family:"Franklin Gothic";
+	color:#009641;
+	text-decoration: overline;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.desc {
+	width: 100%;
+	border: 0px solid green;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Constantia";
+	font-weight: bold;
+}
+
+div.inaccordion {
+	background-color: #eee;
+	color:#444;
+	transition: 0.2s;
+}
+
+
+div.inpanel {
+	max-height: 0px;
+	width: 100%;
+	overflow: hidden;
+	transition: 0.2s ease-in-out;
+	opacity:0;
+	border: 0px solid red;
+	border-radius: 0%;
+	background-color: rgba(1,1,1,0);
+}
+
+div.inpanel.inshow {
+	opacity:1;
+	max-height: 50000px;
+}
+
+div.inaccordion.activein, div.inaccordion:hover {
+	background-color: #ddd;
+}
